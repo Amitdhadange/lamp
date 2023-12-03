@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    background-image: url(https://www.leedarson.com/upfiles/products/202012/1608778321143.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vmax;
+}
+.logo>h1{
+    /* mix-blend-mode:multiply; */
+    padding-top: 2.2vmax;
+}
+.nav>ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5vw;
+    color: whitesmoke;
+}
+.nav>ul>li{
+list-style: none;
+font-size: 1.3vw;
+}
+.nav>ul>li:hover{
+    cursor: pointer;
+    font-weight: 600;
+    color: black;
+}
+.mid{
+    width: 100%;
+    height: 50vh;
+    /* background-color: #797979; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid>h1{
+    color: white;
+    font-size: 4vmax;
+}
+.mid>h3{
+    color: white;
+    font-size: 1.5vmax;
+}
+button{
+    padding: 1vmax 2vmax;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    /* border-radius: 5px; */
+    transition: .5s ease-in-out;
+}
+button:hover{
+    border-radius: 10px;
+    background-color: rgb(36, 36, 36);
+    /* rotate: 360deg; */
+    transform: scale(1.1);
+}
+/* --------------------------------------------------------------------- */
+
+.page2{
+    width: 100%;
+    height: 80vh;
+    background-color:aliceblue;
+    display: flex;
+    overflow: hidden;
+}
+
+.left{
+    width: 50%;
+    height: 80vh;
+    background-color: antiquewhite;
+    background-image: url(https://solislux.eu/site_files/md/8204ee5a7fff8f4006ac579eee7718da.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+
+
+}
+.right{
+    width: 50%;
+    height: 80vh;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right>button{
+    padding: 1vamx 2vmax;
+    color: white;
+    background-color: black;
+    margin-top: 2vmax;
+
+}
+.right>button:hover{
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-weight: 700;
+}
+.right>h1{
+    font-size: 4vmax;
+}
+.right>p{
+    font-size: 1.5vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* --------------------------------------------------------------------- */
+
+.page3{
+    width: 100%;
+    height: 80vh;
+    background-color:aliceblue;
+    display: flex;
+    overflow: hidden;
+}
+
+.left1{
+    width: 50%;
+    height: 80vh;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left1>button{
+    padding: 1vamx 2vmax;
+    color: white;
+    background-color: black;
+    margin-top: 2vmax;
+}
+.left1>button:hover{
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-weight: 700;
+}
+.left1>h1{
+    font-size: 4vmax;
+}
+.left1>p{
+    font-size: 1.5vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right1{
+    width: 50%;
+    height: 80vh;
+    /* background-color: antiquewhite; */
+    background-image: url(https://www.lightology.com/img/prod/650/res-bloom-add1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+/* --------------------------------------------------------------------- */
+
+.page4{
+    width: 100%;
+    height: 80vh;
+    background-color:aliceblue;
+    display: flex;
+    overflow: hidden;
+}
+
+.left2{
+    width: 50%;
+    height: 80vh;
+    background-color: antiquewhite;
+    background-image: url(https://www.clearhalo.com/cdn/shop/products/2385458.jpg?v=1628282988&width=713);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+
+
+}
+.right2{
+    width: 50%;
+    height: 80vh;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right2>button{
+    padding: 1vamx 2vmax;
+    color: white;
+    background-color: black;
+    margin-top: 2vmax;
+
+}
+.right2>button:hover{
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-weight: 700;
+}
+.right2>h1{
+    font-size: 4vmax;
+}
+.right2>p{
+    font-size: 1.5vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* --------------------------------------------------------------------- */
+.page5{
+    width: 100%;
+    height: 100vh;
+    background-color:aliceblue;
+}
+.naw{
+    width: 100%;
+    height: 20vh;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naw>h2{
+    font-size: 4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;    
+}
+.big{
+    width: 100%;
+    height: 80vh;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bax{
+    width: 30%;
+    height: 70vh;
+    /* background-color: aqua; */
+}
+.pict1{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://t3.gstatic.com/images?q=tbn:ANd9GcQS65UMqixYxQaVutMsUW4uBNNjHyBBaG_oE_TFHxf__32FUOlY);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: multiply;
+   
+}
+.bax2{
+    width: 30%;
+    height: 70vh;
+    /* background-color: aqua; */
+
+}
+.tex{
+    width: 100%;
+    height: 10vh;
+    /* background-color: rgb(115, 227, 227); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+    border: 1px solid black;
+   
+}
+.tex>h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
+}
+.tex>p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+}
+.pict2{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://cdn.webshopapp.com/shops/179333/files/143335151/image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    
+}
+.bax3{
+    width: 30%;
+    height: 70vh;
+    /* background-color: aqua; */
+
+}
+.pict3{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://image.architonic.com/img_pro2-1/136/1967/here-comes-the-sun-hcs-bl-cop-350-4-b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: multiply;
+   
+}
+
+
+/* --------------------------------------------------------------------- */
+.page6{
+    width: 100%;
+    height: 80vh;
+    background-color:aliceblue;
+    display: flex;
+}
+.cont1{
+    width: 25vw;
+    height: 80vh;
+    /* background-color: aqua; */
+    line-height: 4vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont1>h1{
+    margin-left: -5vmax;
+}
+.cont1>ul{
+    list-style: none;
+}
+.cont1>ul>li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 600;
+}
+.cont2{
+    width: 25vw;
+    height: 80vh;
+    /* background-color: aqua; */
+    line-height: 4vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont2>ul{
+    list-style: none;
+}
+.cont2>ul>li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 600;
+}
+.cont3{
+    width: 25vw;
+    height: 80vh;
+    /* background-color: aqua; */
+    line-height: 4vmax;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.cont3>ul{
+    list-style: none;
+}
+.cont3>ul>li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 600;
+}
+.cont3>h1{
+    margin-left: -5vmax;
+    
+}
+.cont4{
+    width: 25vw;
+    height: 73vh;
+    /* background-color: aqua; */
+    line-height: 4vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont4>ul>.social{
+    font-size: 2vmax;
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+}
+.cont4>ul>.social>li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 600;
+}
+
+.cont4>ul{
+    list-style: none;
+}
+.cont4>ul>li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 600;
+}
+.cont5{
+    width: 25vw;
+    height: 65vh;
+    /* background-color: aqua; */
+    line-height: 4vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont5>ul{
+    list-style: none;
+}
+.cont5>ul>li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 600;
+}
+.cont5>h1{
+    margin-left: -vmax;
+}
+.cont5>input{
+    padding: 1vmax 2vmax;
+    margin-bottom: 1vmax;
+}
+.cont5>button{
+    padding: 1vmax 2vmax;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+.cont5>button:hover{
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-weight: 700;
+}
